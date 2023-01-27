@@ -33,6 +33,9 @@ while True:
         tokenread = open("token", "r")
         os.system("title Discord Bot onliner - bot on")
         bot.run(tokenread.read())
+        tokenread.close()
+        os.system("title Discord Bot onliner")
+        os.system("cls")
     elif command=="3":
         exit()
     else:
